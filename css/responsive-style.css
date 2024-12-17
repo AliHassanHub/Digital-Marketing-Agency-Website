@@ -1,0 +1,94 @@
+/* navbar 2 */
+@media (max-width: 1300px){
+    
+    .header-wrapper .menu-navbar-nav{
+        width: auto;
+    }
+}
+
+/* navbar 2 */
+@media (max-width: 1230px){
+    
+    .header-wrapper .nav-item{
+        margin: 0 5px;
+    }
+    .header-wrapper .learn-more-btn{
+        padding: 12px 10px !important;
+    }
+}
+/* navbar 2 */
+@media (max-width: 1070px){
+    
+    .header-wrapper .nav-item .nav-link{
+        font-size: 16px;
+    }
+    /* About setting  */
+    .about-wrapper .about-title{
+        font-size: 16px;
+
+    }
+   
+}
+/* navbar 2 */
+@media (max-width: 991px){
+    
+    .header-wrapper .navbar-brand img{
+        width: 180px;
+    }
+    .header-wrapper .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header-wrapper .menu-navbar-nav{
+      text-align: center;
+    }
+    .header-wrapper .nav-item .nav-link{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .header-wrapper .nav-item:last-child .nav-link{
+        margin-bottom: 20px;
+    }
+    .header-wrapper .learn-more-btn{
+        padding: 12px 20px !important;
+    }
+    .header-wrapper .navbar-collapse{
+        background-color: #fff;
+    }
+    /* 5 about setting  */
+    .about-wrapper .about-number{
+        margin: 20px auto;
+        font-size: 24px;
+
+    }
+    .about-wrapper .about-title{
+        font-size: 24px;
+    }
+      /* 5 About pic2 swap */
+      .about-wrapper .innovate .container .row{
+        flex-direction: column-reverse;
+    }
+
+}
+
+/* 3 banner-pic swap */
+@media (max-width: 767px){
+    .banner-wrapper {
+       padding: 100px 0 100px;
+    }
+    .banner-wrapper .row{
+        flex-direction: column-reverse;
+    }
+  
+}
+
+/* features */
+@media (max-width: 1197px){
+    .features-wrapper .ft-2{
+       padding-bottom: 13px;
+    }
+}
+/* @media (max-width: 767px){
+    .features-wrapper .ft-1{
+       padding-bottom: -40px;
+    }
+} */
