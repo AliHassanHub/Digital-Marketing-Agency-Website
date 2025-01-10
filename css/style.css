@@ -7,10 +7,7 @@
 5.about
 6.features
 7.pricing
-8.testimonials
-9.brands
-10.FAQs
-11.Footer
+8.Footer
 ................*/
 
 /* 1.General */
@@ -105,6 +102,7 @@ height: auto;
 .header-wrapper .nav-item .nav-link.active{
 color: #12c4a0;
 }
+
 .header-scrolled{
   position: fixed;
   margin-top: 0;
@@ -333,4 +331,173 @@ color: #12c4a0;
 }
 
 
+/* 7 pricing */
+.pricing-wrapper{
+  padding: 100px 0 0;
+}
+.pricing-wrapper .pricing-subtitle{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  color: #5e5e72;
+}
+.pricing-wrapper .pricing-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.25;
+  margin-bottom: 25px;
+  color: #000;
+}
+.pricing-wrapper .pricing-card{
+  background-color: #fff;
+  box-shadow: 0 1px 20px rgb(0 0 0 / 15%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 40px 45px 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pricing-wrapper .pricing-card:hover{
+box-shadow: 0 2px 29px rgb(0 0 0 / 20%);
+z-index: 5;
+cursor: pointer;
+}
+.pricing-wrapper .pricing-period{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-bottom: 0;
+  color: #798089;
 
+}
+.pricing-wrapper .pricing-card img{
+  max-width: 75%;
+  
+}
+.pricing-wrapper .pricing-rate{
+  font-size: 34px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: #000;
+  line-height: 1.25;
+}
+.pricing-wrapper .pricing-text{
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+}
+.pricing-wrapper .pricing-all-plan{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  margin: 15px 0;
+}
+.pricing-wrapper .pricing-all-plan ul{
+  width: 100%;
+  list-style: none;
+  padding-inline-start: 0;
+}
+.pricing-wrapper .pricing-all-plan li {
+  font-size: 14px;
+  color: #4c535d;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
+  margin-top: 5px;
+}
+.pricing-wrapper .pricing-all-plan li strike {
+  color: #a0a0a0;
+
+}
+.pricing-wrapper .learn-more-btn{
+  background: #0e9d80;
+  border-color: #0e9d80;
+}
+.pricing-wrapper .featured{
+  box-shadow: 0 2px 40px rgb(0 0 0 / 5%);
+  background-color: #fff;
+  border: 5px solid black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.pricing-wrapper .pricing-ribbon{
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  position: absolute;
+  
+  left: 20;
+}
+.pricing-wrapper .pricing-ribbon #rib{
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 5px 0;
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+  text-transform: uppercase;
+  text-align: center;
+  right: -45px;
+  top: 30px;
+  transform: rotate(-45deg);
+}
+
+
+/* 8.footer */
+.footer-wrapper{
+  padding: 100px 0 25px;
+  background: url(/images//images/bg_footer.png) no-repeat;
+  background-size: cover;
+  background-color: #090b3c;
+  color: #fff;
+}
+.footer-wrapper .footer-logo img{
+max-width: 30%;
+}
+.footer-wrapper .footer-text,
+.footer-wrapper .footer-text a{
+margin-top: 30px;
+color: #fff;
+font-size: 15px;
+font-weight: 600;
+line-height: 1.5;
+text-decoration: none;
+
+}
+.footer-wrapper .footer-title{
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+}
+.footer-wrapper .footer_social_media_icon{
+  padding-right: 30px;
+  color: #fff;
+  font-size: 20px;
+}
+.footer-wrapper .footer-credits{
+  color: #fff;
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+  margin-top: 30px;
+
+}
+.footer-wrapper .footer-credits a{
+  color: #ffc100;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
