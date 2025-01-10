@@ -489,9 +489,6 @@ text-decoration: none;
   max-width: 60%;
   
 }
-/* light-white: #f5f8fa'
-gray: #fe6278;
-gray-1: #e3e3e3; */
 .wrapper input{
   background-color: #f5f8fa;
   border-color: #f5f8fa;
@@ -515,9 +512,6 @@ gray-1: #e3e3e3; */
   color: #f5f8fa;
   font-size: 20px;
 
-}
-.wrapper .submit-btn:focus{
-  /* box-shadow: none; */
 }
 .wrapper .heading-wrapper #heading{
   color: #12c4a0;
