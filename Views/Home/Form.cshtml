@@ -1,0 +1,76 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Form</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="~/images/images/favicon.png">
+
+    <!-- Bootstrap 5 cdn links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!-- custom files links -->
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="col-sm-8 offset-sm-3 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
+                <div class="logo">
+                    <img src="~/images/images/logo-new.png" alt="logo" class="img-fluid">
+                </div>
+                
+                <form method="post" action="/Home/SaveData" class=" heading-wrapper rounded bg-white shadow p-5">
+                    <h3 class="  mb-2" id="heading">Pricing Details</h3>
+                    <div class="fw-normal text-muted mb-4">
+                        Go Back? <a href="/Home/Index" class="text-primary fw-bold text-decoration-none">Home Page</a>
+                        <p style="color:red; font-weight:500;">@TempData["Message "]</p>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" name="fname" class="form-control" id="floatingName" placeholder="Ali hassan" required>
+                        <label for="floatingName">Full Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" name="email" class="form-control" id="floatingEmail" placeholder="name@example.com" >
+                        <label for="floatingEmail">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="tel" name="phone" class="form-control" id="floatingNumber" placeholder="01234567891" required>
+                        <label for="floatingNumber">Phone</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" name="company" class="form-control" id="floatingCompany" placeholder="abc" required>
+                        <label for="floatingCompany">Company </label>
+                    </div>
+                    <div class="form-floating ">
+                        <select class="form-select " name="package" id="floatingSelect" aria-label="Floating label select example">
+                            <option selected>--</option>
+                            <option value="free">Free</option>
+                            <option value="growth">Growth</option>
+                            <option value="professional">Professional</option>
+                        </select>
+                        <label for="floatingSelect">Select Package</label>
+                    </div>
+                    
+                    <input type="submit" value="Submit" class="btn  submit-btn w-100 my-4">
+
+                </form>
+               
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap 5 Js cdn links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Custom js links -->
+    <script src="~/js/main.js"></script>
+
+</body>
+</html>
